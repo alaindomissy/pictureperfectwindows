@@ -1,0 +1,789 @@
+@charset "UTF-8"
+/* CSS Document */
+
+body {
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background:#dff7fd url(../images/background04.png) repeat-x;
+	
+}
+a {
+	color:#2378a2;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+
+#container {
+	width:852px;
+	margin:auto;
+	border:2px solid #21537a;
+	border-top:none;
+	padding:0px;
+	padding-top:0px;
+	background:#FFF;
+}
+
+
+
+#header {
+	width:850px;
+	height:100px;
+	background:url(../images/header.jpg) no-repeat;
+	margin:auto;
+}
+
+#header ul.h-nav {
+	width:825px;
+	padding-right:10px;
+	padding-top:20px;
+	text-align:right;
+}
+#header ul.h-nav li {
+	display:inline;
+}
+#header ul.h-nav li.bullet {
+	margin-left:15px;
+}
+
+#header ul.h-nav a {
+	color:#333;
+	font-weight:normal;
+}
+#nav td.image {
+	border-top:1px solid #9db8c9;
+	border-bottom:1px solid #333;
+}
+
+#header-end {
+	background:url(../images/header-end.png) no-repeat;
+	width:810px;
+	height:34px;
+	
+	color:#666;
+	font-size:13px;
+	font-weight:bold;
+	text-align:right;
+	
+	margin:auto;
+	padding:6px 20px 0px;
+}
+#header-end a {
+	color:#666;
+	font-size:13px;
+	font-weight:bold;
+}
+#header-end .left {
+	float:left;
+}
+#header-end .bold {
+	color:#333;
+	font-size:16px;
+	margin-top:-2px;
+}
+#header-end .specials {       /*#header ul.h-nav li.bold a {*/
+	color:#D50;
+	font-weight:bold;
+}
+
+
+#nav {
+	margin:auto;
+}
+
+
+.menuseparator {
+  border-top: 1px solid #AAA; 
+  width:90%; 
+  margin:5px auto; 
+  height:2px; 
+  overflow:hidden;
+}
+
+
+#content {
+	padding:20px;
+	padding-top:15px;
+	margin:auto;
+}
+#content ul {
+	margin-left:20px;
+	list-style-image:url(../images/bullet.png);
+}
+#content li {
+	padding-bottom:10px;
+	padding-left:3px;
+}
+
+.contentimage {
+  float:right;
+  border:2px solid #CCC;
+  #margin-top:5px;
+	margin-left:12px;
+	#position:relative;
+	#z-index:2;
+  }
+.contentimageleft {
+  float:left;
+  border:2px solid #CCC;
+  margin-right:10px;
+	margin-left:0px;
+	#position:relative;
+	#z-index:2;
+  }
+.contentimagefloatnone {
+  float: none;
+  border:2px solid #CCC;
+  margin-right:10px;
+	margin-left:0px;
+	#position:relative;
+	#z-index:2;
+  }  
+ 
+.vendornamelabel{
+   font-size: 11px;
+   font-weight: bold;
+   color:#999;
+   }
+.productnamelabel{
+   font-size: 13px;
+   font-weight: bold;
+   color:#999;
+   }
+.vendorprofile{
+  #font-size: 13px;
+  min-height: 50px;
+  }
+.productprofile{
+  #font-size: 13px;
+  min-height: 160px;
+  }
+.readmorelink {
+  font-size: 11px;
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	text-decoration: underline;
+}
+.firsttwowords{
+  font-size: 18px;
+  font-weight: bold;
+  }
+
+
+
+
+#content h1,h2,h3,h4{
+  font-family:Arial, Helvetica, sans-serif;
+	font-weight: normal;
+  }
+#content h1,h3{
+  text-transform:uppercase;  
+  color:#235882;
+  }
+#content h2,h4{	
+  color:#999;
+	margin-bottom:15px;
+	padding-bottom:5px;
+	border-bottom:1px dotted #CCC;  
+  }
+#content h1:nth-of-type(1) {
+  font-size: 30px;  
+  }
+#content h1{
+  font-size:22px;
+  }
+#content h2:nth-of-type(1) {
+  font-size:15px; 
+  margin-top:-5px;
+  }
+#content h2{
+  font-size:13px;
+  margin-top:-3px; 
+  }
+#content h3: {
+  font-size:18px; 
+  #padding-left:20px; 
+  #padding-top:15px;
+  }
+#content h4: {
+  font-size:13px;   
+  margin-top:-3px; 
+  #padding-left:5px;
+	#padding-bottom:5px;
+  #color:#444;
+  }
+#content p,ul {
+  padding-bottom:10px;
+  }
+
+/* <div style="font-size:22px; font-weight:bold; color:#060;"> */
+#content #specials h2:nth-of-type(1){
+  color:#060
+}
+
+
+
+
+
+/*---------BELOW NO LONGER NEEDED IN DJANGO VERSION----------*/
+#page-main {
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+#page-main .main {
+	font-size:28px;
+	color:#235882;
+}
+#page-main .sub {
+	margin-top:-5px;
+	margin-bottom:15px;
+	font-size:18px;
+	color:#BBB;
+	padding-bottom:5px;
+	border-bottom:1px dotted #CCC;
+}
+#page-sub {
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+}
+#page-sub .main {
+	font-size:24px;
+	color:#235882;
+}
+#page-sub .sub {
+	margin-top:-3px;
+	margin-bottom:15px;
+	font-size:15px;
+	color:#BBB;
+	padding-bottom:5px;
+	border-bottom:1px dotted #CCC;
+}
+/*---------ABOVE NO LONGER NEEDED IN DJANGO VERSION----------*/
+
+#types { 
+	width:635px;
+}
+#types td {
+	padding:10px 0px;
+}
+
+
+#types td.pic {
+	border:2px solid #FFF;
+	border-right:none;
+	width:116px;
+	text-align:center;
+	padding-right:6px;
+	padding-left:5px;
+}
+
+
+#types td.label {
+	border:2px solid #FFF;
+	border-left:none;
+	font-size:15px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-left:8px;
+}
+#types td.label .url {
+	color:#060;
+	font-size:11px;
+	font-weight:normal;
+}
+/*
+#types td.label .link {
+	font-size:11px;
+	padding-top:5px;
+}
+*/
+
+/* ============================ ALTERNATE ROWS */
+#types tr.alt td {
+	background:#E0E0E0;
+}
+#types tr.alt td.pic {
+	border:2px solid #E0E0E0;
+	border-right:none;
+}
+#types tr.alt td.label {
+	border:2px solid #E0E0E0;
+	border-left:none;
+}
+
+
+/* ===============================  HOVERING */
+#types tr:hover td.pic {
+	background:#8AB;
+}
+#types tr:hover td.pic {
+	border:2px solid #8AB;
+	border-right:none;
+}
+#types tr:hover td.label {
+	border:2px solid #8AB;
+	border-left:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------- ANATOMY ONLY --------------------------------- */
+
+#anatomy .body {
+}
+#anatomy .note {
+	color:#69D;
+	font-style:italic;
+	font-size:11px;
+	
+	margin-left:4px;
+}
+
+/* ------------------------------- END ANATOMY --------------------------------- */
+
+
+/* ------------------------------- CONTACT ONLY --------------------------------- */
+
+#contact #text {
+	padding-bottom:10px;
+}
+#contact #disclaimer {
+	font-size:11px;
+	font-weight:bold;
+	
+	padding-top:3px;
+}
+#contact .input_text {
+	color:#888;
+}
+#contact .input_text_over {
+	color:#000;
+}
+#contact form input {
+	width:340px;
+	
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	
+	border:1px solid #2E496B;
+	padding:3px;
+}
+#contact form input.button {
+	width:180px;
+	
+	color:#FFF;
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	
+	background:#2E496B;
+	border:1px solid #8893AA;
+	padding:3px;
+}
+#contact form textarea {
+	width:630px;
+	
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	
+	border:1px solid #2E496B;
+	padding:3px;
+}
+#contact form table {
+	width:680px;
+	background:#E0E0E0;
+	
+	border:1px solid #C0C0C0;
+	padding:10px;
+	padding-left:20px;
+	margin:auto;
+	margin-top:10px;
+}
+#contact form table td {
+	padding:4px 0px;
+}
+#contact .optional {
+	color:#D50;
+	font-weight:bold;
+	font-size:11px;
+}
+#contact .info {
+	font-size:18px;
+	font-weight:bold;
+	color:#235882;
+	padding:5px;
+	text-align:center;
+	
+	border:1px solid #CCC;
+	border-left:none;
+	border-right:none;
+	background:#EEE;
+}
+
+.th {
+  align: left;
+}
+
+/* ------------------------------- END CONTACT --------------------------------- */
+
+
+
+
+
+
+
+
+/* ------------------------------- WINDOWS ONLY --------------------------------- */
+#windows #image01 {
+	position:relative;
+	z-index:2;
+	float:right;
+	border:2px solid #CCC;
+	margin-top:5px;
+	margin-left:12px;
+}
+/* ------------------------------- END WINDOWS --------------------------------- */
+
+/* ------------------------------- DOORS ONLY --------------------------------- */
+#doors #image01 {
+	position:relative;
+	z-index:2;
+	float:right;
+	border:2px solid #CCC;
+	margin-top:5px;
+	margin-left:12px;
+}
+
+
+/* ------------------------------- END DOORS --------------------------------- */
+
+
+/* ------------------------------- SUPER SPACERS ONLY --------------------------------- */
+#superspacers #image01 {
+	position:relative;
+	z-index:2;
+	float:right;
+	border:2px solid #CCC;
+	margin-top:5px;
+	margin-left:12px;
+	
+	#width:265px;
+}
+#superspacers #image02 {
+	float:right;
+	border:2px solid #CCC;
+	margin-top:2px;
+	margin-left:12px;
+}
+
+/* ------------------------------- END SUPER SPACERS --------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ------------------------------- EMPLOYMENT ONLY --------------------------------- */
+#employment .positions {
+	padding-left:20px;
+}
+#employment .positions h1 {
+	font-size:18px;
+	font-weight:bold;
+	
+	padding-top:15px;
+}
+#employment .positions h2 {
+	color:#444;
+	font-size:13px;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-left:5px;
+}
+#employment .info {
+	font-size:16px;
+	font-weight:bold;
+	color:#235882;
+	padding:5px;
+	text-align:center;
+	
+	margin-top:10px;
+	border:1px solid #CCC;
+	border-left:none;
+	border-right:none;
+	background:#EEE;
+}
+
+/* ------------------------------- END EMPLOYMENT --------------------------------- */
+
+
+
+
+
+/* ------------------------------- GRID OPTIONS ONLY --------------------------------- */
+
+#gridoptions #options {
+	width:700px;
+	
+	margin:auto;
+	margin-top:10px;
+	border-spacing:25px 0px;
+}
+#gridoptions #options td.spacer {
+	height:30px;
+}
+#gridoptions #options tr.label td {
+	color:#347;
+	background:#DDD;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	
+	margin-bottom:10px;
+	border:1px solid #BBB;
+	border-left:none;
+	border-right:none;
+}
+#gridoptions #options td img {
+	width:235px;
+	height:200px;
+}
+
+/* ------------------------------- END GRID OPTIONS --------------------------------- */
+
+
+/* ------------------------------- HOMEPAGE ONLY --------------------------------- */
+
+#home .introduction {
+	margin-bottom:15px;
+}
+
+#home #banner {
+	position:relative;
+	height:288px;
+	width:358px;
+	
+	float:left;
+	background:#AAA;
+	
+	margin:0 8px 15px 0;
+	border:1px solid #347;
+	z-index:2;
+}
+
+
+/* NO LONGER NEEDED IN DJANGO VERSION*/
+#home #specials {
+	position:relative;
+	height:170px;
+	width:265px;
+	
+	float:right;
+	background:#AAA;
+	
+	margin-left:10px;
+	z-index:2;
+}
+
+
+
+#home #page {
+	width:440px;
+	margin-left:auto;
+}
+#home #page .title {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#68bbc3;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* removed as useless AD */
+/*
+#home #page .description {
+	margin-bottom:15px;
+}
+*/
+
+
+/* ------------------------------- END HOMEPAGE --------------------------------- */
+
+
+/* ------------------------------- PRIVACY ONLY --------------------------------- */
+
+#privacy #notice {
+	padding-bottom:10px;
+}
+#privacy .info {
+	font-size:16px;
+	font-weight:bold;
+	color:#235882;
+	padding-top:10px;
+}
+
+/* ------------------------------- END PRIVACY --------------------------------- */
+
+
+/* ------------------------------- SPECIALS ONLY --------------------------------- */
+#specials .flier {
+	border:1px solid #347;
+}
+/* ------------------------------- END SPECIALS --------------------------------- */
+
+
+
+
+/* ------------------------------- TAXCREDIT ONLY --------------------------------- */
+#taxcredit h1 {
+	font-size:11px;
+	font-weight:normal;
+	
+	padding-top:15px;
+}
+#taxcredit .sup {
+	font-size:xx-small;
+	vertical-align:top;
+}
+/* ------------------------------- END TAXCREDIT --------------------------------- */
+
+
+
+
+
+
+
+
+/* ------------------------------- FOOTER ONLY --------------------------------- */
+#footer {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	width:852;
+	height:80px;
+	background:url(../images/footer-background.png);
+	margin-top:-10px;
+	padding:0px;
+	
+	text-align:center;
+}
+#footer-line {
+	border-top:1px dotted #AAA;
+	width:100%;
+	height:4px;
+	margin:2px 0px 0px;
+	padding:0px;
+	overflow:hidden;
+}
+#footer a {
+	color:#FFF;
+	font-weight:normal;
+	text-transform:uppercase;
+	font-size:10px
+}
+#footer ul {
+	list-style-type:none;
+	padding-top:5px;
+	padding-bottom:0px;
+	#margin-bottom:8px;
+}
+#footer li {
+	display:inline;
+	margin:0px 0px;
+}
+#footer #copy {
+	font-size:10px;
+}
+#footer #plug {
+	padding-top:1px;
+	padding-bottom:1px;
+	font-size:10px;
+}
+
+.license {
+	/*color:#333;*/
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:2px;
+	padding-right:25px;
+} 
+
+
+
+
+
+/* ------------------------------- END FOOTER --------------------------------- */
+
+
+
+
+
+
+.testimonials {
+width:300px;
+float:right;
+margin:3px 0 10px 0;
+text-align:left;
+}
+
+.testimonials_list{
+width:600px;
+height: 100px;
+margin:3px 0 10px 0;
+text-align:left;
+  }
+.customer {
+width:300px;
+float:right;
+margin:3px 0 10px 0;
+text-align:right;
+}
+.custpic {
+width:50px;
+float:right;
+margin:3px 0 10px 0;
+}
+.custpic_list {
+width:50px;
+float:left;
+margin:3px 0 25px 100px;
+}
+
+.left-quote {
+float:left;
+background:url(../graphics/quote-left.html) no-repeat top;
+width:68px;
+height:77px;
+}
+.bqstart {
+     float: left;
+     font-size: 300%;
+     color: #003398;
+     height: 7px; 
+     margin-top: -6px;
+/*     padding-top: 45px;
+     margin-bottom: -50px;
+*/
+ }
+ .bqend {
+     float: right;
+     font-size: 300%;
+     color: #003398;
+     height: 7px;
+     margin-top: -6px;
+   /*  
+   padding-top: 45px; */
+ }

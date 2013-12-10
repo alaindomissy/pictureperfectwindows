@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#nav {
+	width:850px;
+}
+#nav td {
+	width:225px;
+}
+
+
+#nav dt {
+  width: 225px;  
+  text-indent: 17%; 
+  vertical-align: middle; 
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;  
+  color: #F9F9F9;  
+  text-shadow: 1px 1px 1px #030303;
+  background: url(../images/nav/header_00.jpg) no-repeat;
+}
+#nav dt:hover{
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #0C0C0C;
+  cursor:pointer;  
+  background:url(../images/nav/header_00_over.jpg) no-repeat;
+}
+#nav dt{
+  height: 25px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+#nav .home {
+  height:35px;
+  padding-top: 0px;
+	background:url(../images/nav/header_01_over.jpg) no-repeat;
+}
+#nav .home:hover {
+	background:url(../images/nav/header_01.jpg) no-repeat;
+}
+#nav .windows {
+  height:35px;
+  padding-top: 0px;
+	background:url(../images/nav/header_02_over.jpg) no-repeat;
+}
+#nav .windows:hover {
+	background:url(../images/nav/header_02.jpg) no-repeat;
+}
+#nav .doors {
+  height:35px;
+  padding-top: 0px;
+	background:url(../images/nav/header_03_over.jpg) no-repeat;
+}
+#nav .doors:hover {
+	background:url(../images/nav/header_03.jpg) no-repeat;
+}
+#nav .more {
+  height:35px;
+  padding-top: 0px;
+	background:url(../images/nav/header_05_over.jpg) no-repeat;
+}
+#nav .more:hover {
+	background:url(../images/nav/header_05.jpg) no-repeat;
+}
+#nav .contact {
+  height:35px;
+  padding-top: 0px;
+	background:url(../images/nav/header_04_over.jpg) no-repeat;
+}
+#nav .contact:hover {
+	background:url(../images/nav/header_04.jpg) no-repeat;
+}
+
+
+
+
+#nav .image {
+	width:625px;
+	background:url(../images/main01.jpg) no-repeat;
+	border:1px solid #CCC;
+	border-bottom:none;
+	border-right:none;
+}
