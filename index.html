@@ -362,7 +362,7 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
                                 'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0',
                                 'width', '624',
                                 'height', '173',
-                                'src', 'swf/mainFader.swf',
+                                'src', './swf/mainFader.swf',
                                 'quality', 'best',
                                 'pluginspage', 'http://www.adobe.com/go/getflashplayer',
                                 'align', 'middle',
@@ -377,7 +377,7 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
                                 'menu', 'true',
                                 'allowFullScreen', 'false',
                                 'allowScriptAccess','sameDomain',
-                                'movie', '/swf/mainFader',
+                                'movie', './swf/mainFader',
                                 'salign', ''
                                 ); //end AC code
                        </script>
@@ -387,11 +387,11 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
                                   width="624" height="173" id="mainFader" align="middle">
                             <param name="allowScriptAccess" value="sameDomain" />
                             <param name="allowFullScreen" value="false" />
-                            <param name="movie" value="/swf/mainFader.swf" />
+                            <param name="movie" value="./swf/mainFader.swf" />
                             <param name="quality" value="best" />
                             <param name="wmode" value="transparent" />
                             <param name="bgcolor" value="#ffffff" />	
-                            <embed src="swf/mainFader.swf" quality="best" wmode="transparent" bgcolor="#ffffff" 
+                            <embed src="./swf/mainFader.swf" quality="best" wmode="transparent" bgcolor="#ffffff" 
                                   width="624" height="173" name="mainFader" align="middle" 
                                   allowScriptAccess="sameDomain" 
                                   allowFullScreen="false" 
@@ -561,11 +561,11 @@ function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
 
             
             
-                       <img class="contentimage" 
+                       <!-- <img class="contentimage" 
                            onerror ="this.style.visibility='hidden'"
-                           src="images/contentimage/home.html"
+                           src="images/contentimage/homeOUT.png"
                            alt="."
-                           />  
+                           />  --> 
                                     
             
             
